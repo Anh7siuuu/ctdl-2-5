@@ -27,7 +27,7 @@ struct List
 	Node *last;
 };
 typedef Node* listNode;
-listNode Create_Node(SinhVien sv){
+listNode Create_Node(SinhVien &sv){
     Node* node = new Node;
     node->data.diaChi = sv.diaChi;
     node->data.gioiTinh = sv.gioiTinh;
